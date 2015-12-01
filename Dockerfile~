@@ -14,7 +14,6 @@ RUN wget http://download.sonatype.com/nexus/oss/nexus-installer-3.0.0-m6-unix-ar
 RUN yum install sudo supervisor -y && \
     yum clean all
 
-RUN mkdir /opt/sonatype-work
 RUN useradd -r nexus && \
     chown -R nexus:nexus nexus && \
     chown -R nexus:nexus /opt/sonatype-work

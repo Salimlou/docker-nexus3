@@ -1,1 +1,1 @@
-docker build -t andrefernandes/docker-nexus3 .
+docker build -t benabs/docker-nexus3-m6 .
