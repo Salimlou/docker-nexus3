@@ -1,10 +1,10 @@
 docker-nexus3
 =============
 
-Base CentOS 7 + Nexus 3 (M1)
+Base CentOS 7 + Nexus 3 (M6)
 
 This image runs Nexus 3 (milestone 1) for testing purposes.
-This work has shamefully stolen ideas from "jjethwa/nexus".
+This work has shamefully stolen ideas from "jjethwa/nexus" wich I stole from  andrefernandes/docker-nexus3 :D.
 Sue me.
 
 You can run it mounting the volumes to a host folder or onto
